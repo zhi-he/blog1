@@ -4,7 +4,8 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  # 主页: /archives/
+  主页: /archives/
+  博客首页: /Home
   所有文章: /archives/
   玩转开发工具: /categories/开发工具/
   玩转数码: /categories/digital
