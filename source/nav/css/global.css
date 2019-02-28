@@ -567,7 +567,7 @@ body {
 	font: 14px/1.5 "Helvetica neue",Helvetica,Tahoma,"lantinghei sc","Microsoft Yahei",sans-serif;
 	color: #515250;
 	-webkit-font-smoothing: antialiased;
-	-webkit-backface-visibility: hidden
+	-webkit-backface-visibility: hidden;
 }
 
 input,textarea,select,button {
@@ -631,12 +631,6 @@ a.link:hover,.fc-important,.fc-red {
 	color: #15a683
 }
 
-.u-icon {
-	font-size: inherit;
-	-webkit-text-stroke-width: 0!important;
-	position: relative
-}
-
 .u-num {
 	font-family: Georgia,微软雅黑,'Helvetica Neue',Arial,sans-serif
 }
@@ -651,7 +645,7 @@ a.link:hover,.fc-important,.fc-red {
 }
 
 .f-load-img {
-	background: url(http://data.smohan.net/static/img/logo_grey.png) center no-repeat #f1f2f0;
+	background: url(/img/logo_grey.png) center no-repeat #f1f2f0;
 	background-size: auto auto
 }
 
@@ -771,8 +765,14 @@ pre .php-var {
 	color: #a6e22e
 }
 
-@font-face {
-	font-family:"u-icon";src:url("http://data.smohan.net/static/css/font/iconfont.eot");src:url("http://data.smohan.net/static/css/font/iconfont.eot?#iefix") format('embedded-opentype'),url("http://data.smohan.net/static/css/font/iconfont.woff") format('woff'),url("http://data.smohan.net/static/css/font/iconfont.ttf") format('truetype'),url("http://data.smohan.net/static/css/font/iconfont.svg#u-icon") format('svg')
+/* @font-face {
+	font-family:"u-icon";src:url("font/iconfont.eot");src:url("font/iconfont.eot?#iefix") format('embedded-opentype'),url("font/iconfont.woff") format('woff'),url("font/iconfont.ttf") format('truetype'),url("font/iconfont.svg#u-icon") format('svg')
+}
+
+.u-icon {
+	font-size: inherit;
+	-webkit-text-stroke-width: 0!important;
+	position: relative
 }
 
 .u-icon {
@@ -1026,4 +1026,4 @@ pre .php-var {
 
 .icon-verifyCode:before {
 	content: "\e63b"
-}
+} */
