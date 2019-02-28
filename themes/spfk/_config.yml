@@ -4,14 +4,14 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
-  导航页: /nav
-  博客首页: /
-  作品展示: /works
-  留言打卡: /about
-  前端导航: /FrontEndGuide
-  静心阅读: /tags
-  光影之路: /instagram
-  随笔: /tags/随笔
+  导航: /nav
+  首页: /
+  归档: /archives
+  关于: /about
+  # 前端导航: /FrontEndGuide
+  # 静心阅读: /tags
+  # 光影之路: /instagram
+  # 随笔: /tags/随笔
 
 # Link to your avatar | 填写头像地址
 avatar: img/head.jpg
