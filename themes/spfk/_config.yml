@@ -4,6 +4,7 @@
 ## About Page: `hexo new page about`
 ## Tags Cloud Page: `hexo new page tags`
 menu:
+  导航页: /nav
   博客首页: /Home
   作品展示: /works
   留言打卡: /about
@@ -130,7 +131,7 @@ tagcloud: true
 # Blogroll, Link exchange | 友情链接
 # friends: false
 friends:
-  name: http://luuman.github.io/
+  name: http://zhi-he.github.io/
 
 # 打赏
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
@@ -141,9 +142,9 @@ reward_type: 2
 reward_wording1: '纯属好玩'
 reward_wording2: '扫码打赏，你说多少就多少'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/img/alipay.jpg
-alipay: /img/alipay.png
+alipay: /blog/img/alipay.png
 # 微信二维码图片地址
-weixin: /img/weixin.png
+weixin: /blog/img/weixin.png
 
 #是否开启“关于我”。
 aboutme: 纯海迷、爱运动、爱交友、爱旅行、喜欢接触新鲜事物、迎接新的挑战，更爱游离于错综复杂的编码与逻辑中

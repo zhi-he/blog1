@@ -135,7 +135,7 @@ h1 {
 	content: '';
 	width: 1px;
 	height: 100%;
-	background: url(../img/index_dot_bg.png) no-repeat;
+	/* background: url(../img/index_dot_bg.png) no-repeat; */
 	position: absolute;
 	top: 12px;
 	left: 6px;
@@ -226,14 +226,14 @@ h1 {
 }
 
 .page1 h1,.page1 h3 {
-	text-indent: -9999em;
+	/* text-indent: -9999em; */
 	text-align: center
 }
 
 .page1 h1 {
 	width: 680px;
 	height: 60px;
-	background: url(../img/index_p1_h1.png) 50% no-repeat;
+	/* background: url(../img/index_p1_h1.png) 50% no-repeat; */
 	background-size: 100% auto;
 	margin: 0 auto 0 auto
 }
@@ -241,9 +241,11 @@ h1 {
 .page1 h3 {
 	width: 320px;
 	height: 40px;
-	background: url(../img/index_p1_p.png) 50% no-repeat;
+	/* background: url(../img/index_p1_p.png) 50% no-repeat; */
 	background-size: 100% auto;
-	margin: 20px auto 0 auto
+	margin: 20px auto 0 auto;
+	font-weight: normal;
+	color: #F1F2F0
 }
 
 .page1 .m-driver {
@@ -1107,7 +1109,7 @@ h1 {
 	z-index: 1;
 	top: 0;
 	left: 5px;
-	text-indent: -9999rem;
+	/* text-indent: -9999rem; */
 	background: url(../img/times.png) 0 0 no-repeat;
 	-webkit-transition: all 1s linear;
 	transition: all 1s linear
@@ -2148,7 +2150,7 @@ h1 {
 	}
 
 	.page1 h3 {
-		width: 280px;
+		/* width: 280px; */
 		height: 35px
 	}
 

@@ -43,7 +43,7 @@
               <p><%= theme.reward_wording1%></p>
             </div>
             <div class="shang_payimg">
-              <img src="/img/alipayimg.jpg" alt="扫码支持" title="扫一扫" />
+              <img src="/blog/img/alipayimg.jpg" alt="扫码支持" title="扫一扫" />
             </div>
               <div class="pay_explain"><%= theme.reward_wording2%></div>
             <div class="shang_payselect">
@@ -70,7 +70,7 @@
           $(".pay_item").click(function(){
             $(this).addClass('checked').siblings('.pay_item').removeClass('checked');
             var dataid=$(this).attr('data-id');
-            $(".shang_payimg img").attr("src","/img/"+dataid+"img.jpg");
+            $(".shang_payimg img").attr("src","/blog/img/"+dataid+"img.jpg");
             $("#shang_pay_txt").text(dataid=="alipay"?"支付宝":"微信");
           });
           function dashangToggle(){
