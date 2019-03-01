@@ -7,6 +7,7 @@ menu:
   导航: /nav
   首页: /
   归档: /archives
+  分类/标签: /tags
   关于: /about
   # 前端导航: /FrontEndGuide
   # 静心阅读: /tags
@@ -25,13 +26,13 @@ favicon: img/favicon.png
 ## RSS requires a plugin to take effect | 使用 RSS 需先安装对应插件
 ## https://github.com/hexojs/hexo-generator-feed
 subnav:
-  mail: "http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=PAkNDgsKBQ4MCnxNTRJfU1E"
-  github: "https://github.com/luuman"
-  zhihu: "#"
-  weibo: "#"
-  google: "#"
-  twitter: "#"
-  linkedin: "#"
+  mail: "mailto:731701134@qq.com"
+  github: "https://github.com/zhi-he"
+  # zhihu: "#"
+  # weibo: "#"
+  # google: "#"
+  # twitter: "#"
+  # linkedin: "#"
   # facebook: "#"
   # rss: /atom.xml
   # pinterest: "#"
@@ -47,24 +48,29 @@ subnav:
 # Chose ONE as your comment system and keep others disable.
 # 选一个作为网站评论系统，其他保持禁用。
 
+# 是否开启畅言评论，
+changyan:
+  on: true
+  appid: xxxx
+  conf: xxxxxxxxxxxx
 disqus: 
-  # on: true
-  shortname: luuman
+  on: true
+  shortname: 好记性不如烂键盘
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
   # on: true
-  domain: luuman
+  domain: 好记性不如烂键盘
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 gitment:
   on: true
-  owner: luuman
-  repo: luuman.github.io
+  owner: 好记性不如烂键盘
+  repo: zhi-he.github.io
   client_id: 
   client_secret: 
 
@@ -156,7 +162,6 @@ open_in_new: false
 
 # Customize feed link 自定义订阅地址
 rss: /atom.xml
-
 
 # >>> Vendors | 第三方工具 & 服务 <<<
 

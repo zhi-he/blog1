@@ -65,18 +65,19 @@ define([], function(){
         var timeout;
         var isEnterBtn = false;
         var isEnterTips = false;
-
-        $(".icon").bind("mouseenter", function(){
-            isEnterBtn = true;
-            Tips.show();
-        }).bind("mouseleave", function(){
-            isEnterBtn = false;
-            setTimeout(function(){
-                if(!isEnterTips){
-                    Tips.hide();
-                }
-            }, 100);
-        });
+        
+        // 首页icon图标鼠标事件
+        // $(".icon").bind("mouseenter", function(){
+        //     isEnterBtn = true;
+        //     Tips.show();
+        // }).bind("mouseleave", function(){
+        //     isEnterBtn = false;
+        //     setTimeout(function(){
+        //         if(!isEnterTips){
+        //             Tips.hide();
+        //         }
+        //     }, 100);
+        // });
 
         $(".tips-box").bind("mouseenter", function(){
             isEnterTips = true;
