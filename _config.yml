@@ -8,8 +8,8 @@ subtitle:
 description: 
 keywords:
 author: 好记性不如烂键盘
-language: zh
-timezone:
+language: zh-CN
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -76,7 +76,7 @@ Plugins:
   - hexo-generator-feed
 ## Themes: https://hexo.io/themes/
 
-theme: yilia  #spfk black-blue yilia
+theme: next  #spfk black-blue yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -88,11 +88,11 @@ deploy:
 include: .nojekyll
 
 # 搜索
-search:
-  path: search.json
-  field: post
-# 订阅 RSS
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
+# search:
+#   path: search.json
+#   field: post
+# # 订阅 RSS
+# feed:
+#   type: atom
+#   path: atom.xml
+#   limit: 20
