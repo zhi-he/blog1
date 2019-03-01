@@ -60,7 +60,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -174,14 +174,14 @@ scheme: Muse
 # Posts / Categories / Tags in sidebar.
 site_state: true
 
-# Social Links
+# Social Links 友情链接
 # Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  GitHub: https://github.com/zhi-he || github
+  E-Mail: mailto:731701134@qq.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -209,14 +209,14 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  #Title: http://example.com
+  # Title: http://example.com
 
 # Sidebar Avatar
 avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: /images/avatar.head
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -319,20 +319,20 @@ codeblock:
     # Style: only 'flat' is currently available, leave it blank if you prefer default theme
     style:
 
-# Wechat Subscriber
+# Wechat Subscriber 订阅微信公众号
 wechat_subscriber:
   #enabled: true
   #qcode: /path/to/your/wechatqcode e.g. /uploads/wechat-qcode.jpg
   #description: e.g. subscribe to my blog by scanning my public wechat account
 
-# Reward
+# Reward 打赏
 # If true, reward would be displayed in every article by default.
 # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
 reward:
-  enable: false
+  enable: true
   #comment: Donate comment here
-  #wechatpay: /images/wechatpay.jpg
-  #alipay: /images/alipay.jpg
+  wechatpay: /images/wechat.jpg
+  alipay: /images/alipay.jpg
   #bitcoin: /images/bitcoin.jpg
 
 # Related popular posts
@@ -535,8 +535,8 @@ quicklink:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: 好记性不如烂键盘
   count: true
   lazyload: false
 
@@ -569,7 +569,7 @@ valine:
 # Gitment
 # Introduction: https://github.com/imsun/gitment
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
@@ -829,8 +829,8 @@ tabs:
 #! UNLESS YOU KNOW WHAT YOU ARE DOING
 #! ---------------------------------------------------------------
 
-# Use velocity to animate everything.
-motion:
+# Use velocity to animate everything. 动画效果
+motion: 
   enable: true
   async: false
   transition:
