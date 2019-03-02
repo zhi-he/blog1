@@ -211,12 +211,12 @@ links_layout: block
 links:
   # Title: http://example.com
 
-# Sidebar Avatar
+# Sidebar Avatar 头像
 avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /images/avatar.head
+  url: /images/head.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -535,7 +535,7 @@ quicklink:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: 好记性不如烂键盘
   count: true
   lazyload: false
@@ -574,11 +574,11 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github Username
-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  language: zh-CN # Force language, or auto switch by theme
+  github_user: zhi-he # MUST HAVE, Your Github Username
+  github_repo: blog # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: 79f37154c531c6d9a5dd # MUST HAVE, Github client id for the Gitment
+  client_secret: b2646c4436d02a9069db961a683131d4976da2f0 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
