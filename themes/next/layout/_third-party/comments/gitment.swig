@@ -2,11 +2,13 @@
 {% if theme.gitment.mint %}
   {% set CommentsClass = 'Gitmint' %}
   <!-- <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitmint.browser.js"></script> -->
-  <script src="{{ url_for(theme.js) }}/src/gitmint.browser.js.js?v={{ version }}"></script>
+  <script src="{{ url_for(theme.js) }}/src/gitmint.browser.js?v={{ version }}"></script>
 {% else %}
   {% set CommentsClass = 'Gitment' %}
   <!-- <script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script> -->
-  <script src="https://www.wenjunjiang.win/js/gitment.js"></script>
+  <!-- <script src="https://www.wenjunjiang.win/js/gitment.js"></script> -->
+  <script src="{{ url_for(theme.js) }}/src/gitment.js?v={{ version }}"></script>
+
 {% endif %}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
 <!-- END LOCAL -->
