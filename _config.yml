@@ -12,7 +12,7 @@ language: zh-CN
 timezone: 
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+## 如果您的站点放在子目录中, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com/blog
 root: /blog/
 permalink: :year/:month/:day/:title/
@@ -35,8 +35,8 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
-relative_link: false
+post_asset_folder: true
+relative_link: true
 future: true
 highlight:
   enable: true
