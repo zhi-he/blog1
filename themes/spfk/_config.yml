@@ -55,21 +55,21 @@ changyan:
   conf: xxxxxxxxxxxx
 disqus: 
   on: true
-  shortname: 好记性不如烂键盘
+  shortname: 一介码农
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
   # you have set "disqus_shortname" in your site's "_config.yml" 
 
 duoshuo: 
   # on: true
-  domain: 好记性不如烂键盘
+  domain: 一介码农
   # 是否开启多说评论，http://duoshuo.com/create-site/
   # 使用上面网址登陆你的多说，然后创建站点，在 domain 中填入你设定的域名前半部分
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 gitment:
   on: true
-  owner: 好记性不如烂键盘
+  owner: 一介码农
   repo: zhi-he.github.io
   client_id: 
   client_secret: 

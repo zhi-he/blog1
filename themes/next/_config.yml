@@ -536,7 +536,7 @@ quicklink:
 # Disqus
 disqus:
   enable: false
-  shortname: 好记性不如烂键盘
+  shortname: 一介码农
   count: true
   lazyload: false
 
