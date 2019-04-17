@@ -57,7 +57,7 @@ npm install
 
 {% asset_img 2019-04-15-16-39-58.png image %}
 
-配置部署配置`deploy`字段，我部署的站点是git默认的，`type`填`git`，`repo`是项目地址，好像只能填`SSH`的，`branch`是编译后的分支名称
+配置部署配置`deploy`字段，我部署的站点是git默认的，`type`填`git`，`repo`是项目地址，`branch`是编译后的分支名称
 
 {% asset_img 2019-04-15-17-15-22.png image %}
 

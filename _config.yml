@@ -82,7 +82,7 @@ theme: next  #spfk black-blue yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:zhi-he/blog.git
+  repo: https://github.com/zhi-he/blog.git
   branch: master
 
 include: .nojekyll
