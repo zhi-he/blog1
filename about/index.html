@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Hexo, 一介码农">
 
 
 
@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="关于我的测试页面">
+<meta name="description" content="关于我欢迎来到我的博客，本人是一位90后技术宅🐒，一介前端码农，毕业于河南一所普通大学，目前就职于北京。 关于博客到2019年，我已经参加工作2年有余。参加过许多项目，也上线了很多项目，但一直没能沉淀下来东西。故搭建此博客，希望自己能不懒则不懒😂，积累下来属于自己的财富。 联系我   邮箱：731701134@qq.com   QQ: 731701134">
 <meta property="og:type" content="website">
 <meta property="og:title" content="关于我">
 <meta property="og:url" content="https://zhi-he.github.io/blog/about/index.html">
 <meta property="og:site_name" content="一介码农">
-<meta property="og:description" content="关于我的测试页面">
+<meta property="og:description" content="关于我欢迎来到我的博客，本人是一位90后技术宅🐒，一介前端码农，毕业于河南一所普通大学，目前就职于北京。 关于博客到2019年，我已经参加工作2年有余。参加过许多项目，也上线了很多项目，但一直没能沉淀下来东西。故搭建此博客，希望自己能不懒则不懒😂，积累下来属于自己的财富。 联系我   邮箱：731701134@qq.com   QQ: 731701134">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-01T02:24:15.478Z">
+<meta property="og:updated_time" content="2019-04-26T06:34:49.706Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="关于我">
-<meta name="twitter:description" content="关于我的测试页面">
+<meta name="twitter:description" content="关于我欢迎来到我的博客，本人是一位90后技术宅🐒，一介前端码农，毕业于河南一所普通大学，目前就职于北京。 关于博客到2019年，我已经参加工作2年有余。参加过许多项目，也上线了很多项目，但一直没能沉淀下来东西。故搭建此博客，希望自己能不懒则不懒😂，积累下来属于自己的财富。 联系我   邮箱：731701134@qq.com   QQ: 731701134">
 
 
 
@@ -267,7 +267,9 @@
       <div class="post-body">
         
         
-          <p>关于我的测试页面</p>
+          <h3 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h3><pre><code>欢迎来到我的博客，本人是一位90后技术宅🐒，一介前端码农，毕业于河南一所普通大学，目前就职于北京。
+</code></pre><h3 id="关于博客"><a href="#关于博客" class="headerlink" title="关于博客"></a>关于博客</h3><pre><code>到2019年，我已经参加工作2年有余。参加过许多项目，也上线了很多项目，但一直没能沉淀下来东西。故搭建此博客，希望自己能不懒则不懒😂，积累下来属于自己的财富。
+</code></pre><h3 id="联系我"><a href="#联系我" class="headerlink" title="联系我"></a>联系我</h3><p>   邮箱：<a href="mailto:731701134@qq.com" target="_blank" rel="noopener">731701134@qq.com</a><br>   QQ: 731701134</p>
 
         
       </div>
@@ -317,8 +319,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -396,6 +407,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#关于我"><span class="nav-number">1.</span> <span class="nav-text">关于我</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关于博客"><span class="nav-number">2.</span> <span class="nav-text">关于博客</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#联系我"><span class="nav-number">3.</span> <span class="nav-text">联系我</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -572,8 +599,8 @@
 <!-- LOCAL: You can save these files to your site and update links -->
     
         
-        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
-        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+        <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+        <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
     
 <!-- END LOCAL -->
 
@@ -582,12 +609,10 @@
     
       <script type="text/javascript">
       function renderGitment(){
-        var gitment = new Gitmint({
+        var gitment = new Gitment({
             id: window.location.pathname, 
             owner: 'zhi-he',
             repo: 'blog',
-            
-            lang: "zh-CN" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
             
             oauth: {
             
