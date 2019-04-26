@@ -5,14 +5,14 @@
 # Site
 title: 一介码农
 subtitle:
-description: 
+description:
 keywords:
-author: 一介码农
+author: John Doe
 language: zh-CN
-timezone: 
+timezone:
 
 # URL
-## 如果您的站点放在子目录中, set url as 'http://yoursite.com/child' and root as '/child/'
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://zhi-he.github.io/blog/
 root: /blog/
 permalink: :year/:month/:day/:title/
@@ -35,8 +35,8 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
-relative_link: true
+post_asset_folder: false
+relative_link: false
 future: true
 highlight:
   enable: true
@@ -72,11 +72,8 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
-Plugins:
-  - hexo-generator-feed
 ## Themes: https://hexo.io/themes/
-
-theme: next  #spfk black-blue yilia
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -84,15 +81,3 @@ deploy:
   type: git
   repo: https://github.com/zhi-he/blog.git
   branch: master
-
-include: .nojekyll
-
-# 搜索
-# search:
-#   path: search.json
-#   field: post
-# # 订阅 RSS
-# feed:
-#   type: atom
-#   path: atom.xml
-#   limit: 20
