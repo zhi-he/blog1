@@ -45,7 +45,7 @@ favicon:
 
 # Set default keywords (Use a comma to separate)
 # 设置默认关键字（使用逗号分隔）
-keywords: "Hexo, NexT"
+keywords: "Hexo, 一介码农"
 
 # Set rss to false to disable feed link.
 # 将rss设置为false以禁用源链接。
@@ -425,7 +425,7 @@ valine:
 # You can get your Github ID from https://api.github.com/users/<Github username>
 gitment:
   enable: true
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  mint: false # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
